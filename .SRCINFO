@@ -1,0 +1,16 @@
+pkgbase = filter-types-git
+	pkgdesc = command line filterer for files
+	pkgver = v0.1.0.r1.a93359d
+	pkgrel = 1
+	url = https://gitlab.com/mcoffin/filter-files
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = cargo
+	provides = filter-types
+	conflicts = filter-types
+	source = filter-types::git+https://gitlab.com/mcoffin/filter-types.git
+	sha512sums = SKIP
+
+pkgname = filter-types-git
+
